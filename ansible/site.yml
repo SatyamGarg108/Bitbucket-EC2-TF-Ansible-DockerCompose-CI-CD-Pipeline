@@ -1,5 +1,5 @@
-- name: Deploy JFrog Artifactory
+- name: Deploy Bitbucket
   hosts: all
   become: true
   roles:
-    - artifactory
+    - Bitbucket
